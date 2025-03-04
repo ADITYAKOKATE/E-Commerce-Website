@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Font style */
+  background: linear-gradient(to right, #f4f4f4, #e1e1e1); /* Gradient background */
+  color: #333; /* Text color */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Padding around the page */
+}
+
+.container {
+  max-width: 1000px; /* Maximum width */
+  margin: auto; /* Center the container */
+  background-color: white; /* White background for the form */
+  padding: 20px; /* Padding inside the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s; /* Transition for scaling */
+}
+
+.container:hover {
+  transform: scale(1.02); /* Scale up on hover */
+}
+
+h1 {
+  text-align: center; /* Center the title */
+  color: #E8BC0E; /* Accent color */
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 2.5em; /* Larger font size */
+}
+
+.row {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between columns */
+  margin-bottom: 15px; /* Space below the row */
+}
+
+.col-50 {
+  flex: 1; /* Flex-grow to fill space */
+  padding: 10px; /* Padding around columns */
+}
+
+label {
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%; /* Full width */
+  padding: 15px; /* Increased padding inside inputs */
+  margin: 5px 0 15px; /* Space around inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+  border-color: #E8BC0E; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(232, 188, 14, 0.5); /* Shadow effect on focus */
+}
+
+.icon-container {
+  margin: 10px 0; /* Space above and below icon container */
+}
+
+.btn {
+  background: linear-gradient(135deg, #E8BC0E, #FFD700); /* Gradient button color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  padding: 15px; /* Padding inside button */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Inline block element */
+  font-size: 16px; /* Font size */
+  margin: 20px 0; /* Margin above and below button */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 5px; /* Rounded corners */
+  transition: background 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #FFD700, #E8BC0E); /* Lighter button color on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+input[type="checkbox"] {
+  margin: 10px 0; /* Space around checkbox */
+}

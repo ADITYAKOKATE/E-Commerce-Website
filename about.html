@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Oasis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://img.freepik.com/premium-vector/100-percent-fresh-organic-food-logo-design-with-illustration-fresh-abstract-leaves-circles_567423-704.jpg"
+        type="image/x-icon">
+    <script src="https://kit.fontawesome.com/72411b8f60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4; /* Light background for contrast */
+        }
+
+        header {
+            background-color: #28a745; /* Green background for header */
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+        nav {
+            flex: 1;
+        }
+
+        #navbar {
+            list-style: none;
+            padding: 0;
+        }
+
+        #navbar li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        #navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        #navbar a:hover {
+            color: #f0e68c; /* Light yellow on hover */
+            transform: scale(1.1); /* Slightly enlarge on hover */
+        }
+
+        #page-header {
+            background: url('images/page-header-bg.jpg') no-repeat center center/cover; /* Background image */
+            text-align: center;
+            padding: 100px 0; /* Increased padding */
+            color: white;
+            animation: fadeIn 1s; /* Fade-in effect */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .about-header h2 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for text */
+        }
+
+        .about-header p {
+            font-size: 1.5em;
+        }
+
+        .section-p1 {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            background-color: white; /* White background for sections */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for sections */
+            border-radius: 10px; /* Rounded corners for sections */
+            margin: 20px 0; /* Spacing between sections */
+        }
+
+        .about-image {
+            max-width: 50%;
+            border-radius: 10px; /* Rounded corners */
+            margin-right: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for images */
+        }
+
+        h2 {
+            color: #28a745; /* Green for headings */
+        }
+
+        .feature-box {
+            text-align: center;
+            margin: 20px;
+            transition: transform 0.3s; /* Transition for scaling */
+        }
+
+        .feature-box:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+        .feature-box img {
+            max-width: 100px; /* Adjust icon size */
+        }
+
+        #newsletter {
+            background-color: #f8f9fa; /* Light background for newsletter */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #newsletter input {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .normal {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s; /* Added transform for scaling */
+        }
+
+        .normal:hover {
+            background-color: #218838; /* Darker green on hover */
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <section id="header">
+        <div>
+            <img style="height: 50px; float: left;"
+            src="https://img.freepik.com/premium-vector/100-percent-fresh-organic-food-logo-design-with-illustration-fresh-abstract-leaves-circles_567423-704.jpg"
+            class="logo" alt="">
+
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">HOME</a></li>
+                <li><a class="active"  href="about.html">ABOUT</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <!--Page Header-->
+    <section id="page-header" class="about-header">
+        <h2>Know Us</h2>
+        <p>Organic Foods.<br></p>
+    </section>
+
+    <section id="about-head" class="section-p1">
+        <img src="images/a6.jpg" alt="About Us Image" class="about-image">
+        <div>
+            <h2>Who We Are?</h2>
+            <p>
+                What started as one small store in Mumbai is now an organic product range available across worldwide stores, leading e-marketplaces in India, and a proprietary e-commerce platform—delivering healthy ingredients to doorsteps everywhere. From sourcing organic food from a single farmer to building a community of agriculturists nationwide, our journey has been revolutionary.
+                <br><br>
+                We welcome you to join us for another decade of eating healthier and growing bigger!
+            </p>
+            <abbr title=""><strong>Our Mission:</strong> To Lead with Consciousness</abbr>
+            <br><br>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Contact us at +91 xxxxxxxxxx.</marquee>
+        </div>
+    </section>
+
+    <!--Features-->
+    <section id="features" class="section-p1">
+        <div class="feature-box">
+            <img src="images/f6.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/f5.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/f4.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/f3.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="feature-box">
+            <img src="images/f2.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+    </section>
+
+    <!--Newsletter-->
+    <section id="newsletter" class="section-p1">
+        <div class="news-text">
+            <h4>Sign Up for Our Newsletter</h4>
+            <p>Get email updates about our latest shops and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your email address" required>
+            <a href="signup.html"><button class="normal">Signup</button></a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="col">
+                <img class="logo" style="height:74px" src="images/organic logo.jpeg.jpg" alt="">
+                <p><strong>Address:</strong> xxxx</p>
+                <p><strong>Phone:</strong> +91 xxxxxxxxxx</p>
+                <p><strong>Hours:</strong> 9:00 am - 11:00 pm Mon-Sun</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="./about.html">About us</a>
+                <a href="">Delivery Information</a>
+                <a href="https://www.organicwithoutboundaries.bio/privacy-policy/">Privacy policy</a>
+                <a href="https://www.indiafilings.com/sample-format/website-terms-and-conditions-format.doc">Terms and conditions</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="signin.html">Sign in</a>
+                <a href="">Track your order</a>
+                <a href="contact.html">Help</a>
+            </div>
+            <div class="col install">
+                <p>Secured payment gateway</p>
+                <img src="images/pay.png" alt="Payment Methods">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
