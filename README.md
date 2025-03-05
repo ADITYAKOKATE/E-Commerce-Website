@@ -27,6 +27,10 @@ The **Organic Food E-Commerce Website** is an online platform that allows custom
 4. Track your order status in the user dashboard.
 5. Leave a review after receiving the product.
 
+## Screenshots
+<img src="Screenshot 2025-03-05 122142.png" width="500"><img src="Screenshot 2025-03-05 122233.png" width="500">
+<img src="Screenshot 2025-03-05 122201.png" width="500"><img src="Screenshot 2025-03-05 122218.png" width="500">
+
 ## Contributing
 Contributions are welcome! To contribute:
 - Fork the repository
